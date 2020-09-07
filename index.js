@@ -18,3 +18,9 @@ function increment(a) {
   a++
   return a
 }
+
+function decrement(a) {
+  a--
+  return a
+}
+
