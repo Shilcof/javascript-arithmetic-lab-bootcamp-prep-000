@@ -24,7 +24,7 @@ function decrement(a) {
   return a
 }
 
-function parses(a) {
+function makeInt(a) {
   return parseInt(a, 10)
 }
 
