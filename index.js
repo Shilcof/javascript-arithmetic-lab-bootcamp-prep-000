@@ -15,12 +15,16 @@ function divide(a,b) {
 }
 
 function increment(a) {
-  a++
+  a += 1
   return a
 }
 
 function decrement(a) {
-  a--
+  a -= 1
   return a
+}
+
+function parses(a) {
+  return parseInt(a, 10)
 }
 
